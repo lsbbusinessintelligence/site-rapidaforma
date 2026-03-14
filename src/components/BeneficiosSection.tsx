@@ -9,7 +9,7 @@ const benefits = [
 ];
 
 const BeneficiosSection = () => (
-  <section className="py-20 md:py-28 bg-secondary/50">
+  <section id="porque" className="py-20 md:py-28 bg-secondary/50 scroll-mt-28">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

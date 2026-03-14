@@ -22,14 +22,13 @@ const Footer = () => (
             <li>• {COMPANY.location}</li>
             <li>• Taboao da Serra</li>
             <li>• Embu das Artes</li>
-            <li>• Morumbi e regiao</li>
             <li>• Grande Sao Paulo</li>
           </ul>
         </div>
       </div>
       <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center text-primary-foreground/60">
         <p>&copy; {new Date().getFullYear()} {COMPANY.shortName}. Todos os direitos reservados.</p>
-        <p className="mt-2">Site desenvolvido por LSB Intelligence.</p>
+        <p className="mt-2">Site desenvolvido por LSB Business Intelligence.</p>
       </div>
     </div>
   </footer>

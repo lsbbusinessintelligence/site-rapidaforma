@@ -3,7 +3,7 @@ import { MessageCircle, Check, Hammer, PaintRoller } from "lucide-react";
 import { COMPANY, WHATSAPP_URL } from "@/lib/siteConfig";
 
 const HeroSection = () => (
-  <section className="hero-gradient relative overflow-hidden min-h-[90vh] flex items-center">
+  <section id="home" className="hero-gradient relative overflow-hidden min-h-[90vh] flex items-center scroll-mt-28">
     <div className="absolute inset-0 opacity-10">
       <div className="absolute top-20 right-20 w-96 h-96 rounded-full bg-[#FF8C00]/20 blur-3xl animate-pulse" style={{ animationDuration: "4s" }} />
       <div className="absolute bottom-20 left-10 w-72 h-72 rounded-full bg-[#FF8C00]/15 blur-3xl animate-pulse" style={{ animationDuration: "3s" }} />
@@ -39,13 +39,10 @@ const HeroSection = () => (
               <Hammer className="w-10 h-10 text-accent relative z-10" />
               <div className="absolute inset-0 bg-accent/20 blur-xl rounded-full" />
             </div>
-            <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent border border-accent/30">
-              {COMPANY.shortName} | Equipe do Sr. Cicero
-            </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
             RapidaForma | Reformas e Pinturas{" "}
-            <span className="text-gradient">com Qualidade e Sem Enrolacao</span>
+            <span className="text-gradient">com Qualidade e Agilidade</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
             Especialistas em Taboao da Serra e regiao. O Sr. Cicero e sua equipe entregam sua obra com rapidez, limpeza e a confianca que voce procura.
@@ -70,7 +67,7 @@ const HeroSection = () => (
           <div className="mt-8 flex flex-col gap-3">
             <span className="flex items-center gap-2 text-primary-foreground/80 text-sm md:text-base font-semibold">
               <Check className="w-5 h-5 text-accent flex-shrink-0" />
-              Obras residenciais e comerciais em Taboao da Serra e regiao
+              Obras residenciais e comerciais na Grande Sao Paulo
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />

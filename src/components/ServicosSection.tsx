@@ -25,7 +25,7 @@ const services = [
 ];
 
 const ServicosSection = () => (
-  <section className="py-20 md:py-28 bg-background">
+  <section id="servicos" className="py-20 md:py-28 bg-background scroll-mt-28">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

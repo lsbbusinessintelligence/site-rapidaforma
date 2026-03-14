@@ -1,0 +1,29 @@
+const items = [
+  { label: "Home", href: "#home" },
+  { label: "Nossos servicos", href: "#servicos" },
+  { label: "Porque a RapidaForma", href: "#porque" },
+  { label: "Obras e Resultados", href: "#obras" },
+  { label: "Feedbacks", href: "#feedbacks" },
+  { label: "Avaliacoes Reais", href: "#avaliacoes" },
+  { label: "Fale Conosco", href: "#contato" },
+];
+
+const TopSectionsNav = () => (
+  <div className="fixed top-0 inset-x-0 z-40 border-b border-white/20 bg-primary/90 backdrop-blur-md">
+    <div className="container py-3">
+      <div className="flex gap-2 overflow-x-auto no-scrollbar">
+        {items.map((item) => (
+          <a
+            key={item.href}
+            href={item.href}
+            className="shrink-0 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs sm:text-sm font-medium text-primary-foreground transition hover:bg-accent hover:text-accent-foreground"
+          >
+            {item.label}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+);
+
+export default TopSectionsNav;

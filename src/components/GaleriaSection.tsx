@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "/images/rapidaforma/obra-01.jpeg", alt: "Aplicacao de revestimento em area interna" },
-  { src: "/images/rapidaforma/obra-02.jpeg", alt: "Equipe em assentamento de piso" },
-  { src: "/images/rapidaforma/obra-03.jpeg", alt: "Pintura e reforma em andamento" },
   { src: "/images/rapidaforma/obra-05.jpeg", alt: "Estrutura de obra em construcao" },
   { src: "/images/rapidaforma/obra-06.jpeg", alt: "Assentamento de piso porcelanato" },
   { src: "/images/rapidaforma/obra-07.jpeg", alt: "Cimento queimado e acabamento" },
@@ -16,7 +13,7 @@ const photos = [
 ];
 
 const GaleriaSection = () => (
-  <section className="py-20 md:py-28 bg-secondary/40">
+  <section id="obras" className="py-20 md:py-28 bg-secondary/40 scroll-mt-28">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}

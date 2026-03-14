@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import TopSectionsNav from "./components/TopSectionsNav";
 
 const queryClient = new QueryClient();
 
@@ -14,6 +15,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <TopSectionsNav />
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>

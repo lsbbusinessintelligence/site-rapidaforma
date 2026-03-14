@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import { COMPANY, WHATSAPP_URL } from "@/lib/siteConfig";
 
 const CtaSection = () => (
-  <section className="hero-gradient py-20 md:py-28">
+  <section id="contato" className="hero-gradient py-20 md:py-28 scroll-mt-28">
     <div className="container">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
