@@ -90,15 +90,15 @@ const HeroSection = () => (
           transition={{ duration: 0.7, delay: 0.3 }}
           className="flex flex-col items-center gap-6 mt-12 lg:mt-0"
         >
-          <div className="bg-gradient-to-br from-white to-orange-50 rounded-3xl shadow-2xl p-6 max-w-md border border-white/40">
-            <div className="relative overflow-hidden rounded-2xl bg-white">
+          <div className="bg-gradient-to-br from-[#f6fbff] to-[#dff1ff] rounded-3xl shadow-2xl p-6 max-w-md border border-white/40">
+            <div className="relative overflow-hidden rounded-2xl bg-[#f8fcff]">
               <img
                 src="/images/rapidaforma/obra-10.jpeg"
                 alt="Equipe da RapidaForma em obra"
                 className="w-full h-auto"
               />
             </div>
-            <div className="relative overflow-hidden rounded-2xl bg-white mt-4">
+            <div className="relative overflow-hidden rounded-2xl bg-[#f8fcff] mt-4">
               <img
                 src="/images/rapidaforma/obra-12.jpeg"
                 alt="Resultado de piso finalizado"
@@ -112,10 +112,10 @@ const HeroSection = () => (
                   <span key={i} className="text-yellow-400 text-xl">⭐</span>
                 ))}
               </div>
-              <p className="text-gray-800 font-semibold text-base mb-2">
+              <p className="text-[#1f4f73] font-semibold text-base mb-2">
                 "Capricho, pontualidade e acabamento impecavel."
               </p>
-              <p className="text-gray-600 text-sm">
+              <p className="text-[#4f7b97] text-sm">
                 Clientes reais no Google Maps
               </p>
             </div>
