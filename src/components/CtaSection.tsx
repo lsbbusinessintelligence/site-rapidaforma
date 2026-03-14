@@ -22,7 +22,7 @@ const CtaSection = () => (
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-accent text-accent-foreground font-semibold text-lg hover:brightness-110 transition-all duration-200 glow-border"
+          className="inline-flex items-center gap-3 px-8 py-4 rounded-lg bg-[#0A2E73] text-white font-semibold text-lg hover:bg-[#133f96] transition-all duration-200 shadow-[0_0_30px_-10px_rgba(10,46,115,0.9)]"
           onClick={() => {
             if (typeof window !== 'undefined' && (window as any).gtag) {
               (window as any).gtag('event', 'click_whatsapp', {

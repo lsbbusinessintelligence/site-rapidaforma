@@ -1,35 +1,51 @@
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { WHATSAPP_URL } from "@/lib/siteConfig";
 
+const PHONE_URL = "tel:+5511995250023";
+
 const FloatingWhatsApp = () => {
   return (
-    <motion.a
-      href={WHATSAPP_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-3 px-4 sm:px-6 py-3 sm:py-4 bg-[#25D366] hover:bg-[#20BA5A] text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-200 group"
+    <motion.div
+      className="fixed bottom-6 right-6 z-50 flex items-center gap-3"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.3, delay: 1 }}
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      title="Falar no WhatsApp"
-      onClick={() => {
-        if (typeof window !== 'undefined' && (window as any).gtag) {
-          (window as any).gtag('event', 'click_whatsapp', {
-            event_category: 'lead',
-            event_label: 'botao_whatsapp_flutuante'
-          });
-        }
-      }}
     >
-      <MessageCircle className="w-8 h-8 relative z-10" />
-      <span className="font-semibold text-sm sm:text-lg whitespace-nowrap relative z-10">
-        Falar no WhatsApp
-      </span>
-      <div className="absolute inset-0 bg-[#25D366]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
-    </motion.a>
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] hover:bg-[#20BA5A] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center"
+        title="Falar no WhatsApp"
+        onClick={() => {
+          if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('event', 'click_whatsapp', {
+              event_category: 'lead',
+              event_label: 'botao_whatsapp_flutuante'
+            });
+          }
+        }}
+      >
+        <MessageCircle className="w-6 h-6" />
+      </a>
+
+      <a
+        href={PHONE_URL}
+        className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#0A2E73] hover:bg-[#133f96] text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center"
+        title="Ligar agora"
+        onClick={() => {
+          if (typeof window !== 'undefined' && (window as any).gtag) {
+            (window as any).gtag('event', 'click_call', {
+              event_category: 'lead',
+              event_label: 'botao_ligacao_flutuante'
+            });
+          }
+        }}
+      >
+        <Phone className="w-6 h-6" />
+      </a>
+    </motion.div>
   );
 };
 
