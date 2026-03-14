@@ -5,15 +5,15 @@ import { WHATSAPP_URL } from "@/lib/siteConfig";
 const testimonials = [
   {
     name: "Victor Rocha",
-    text: "Trabalho de excelente qualidade, capricho e o melhor, sem enrolacao.",
+    text: "Trabalho de excelente qualidade, capricho e o melhor, sem enrolação.",
   },
   {
-    name: "Joao Pedro",
+    name: "João Pedro",
     text: "Excelente profissional! Muito pontual, organizado e caprichoso no trabalho. Recomendo de olhos fechados!",
   },
   {
     name: "Thays Freitas",
-    text: "Excelente profissional, terminou o servico antes do prazo, servico com qualidade, rapidez e preco justo. Obrigada Sr. Cicero.",
+    text: "Excelente profissional, terminou o serviço antes do prazo, serviço com qualidade, rapidez e preço justo. Obrigada, Sr. Cícero.",
   },
   {
     name: "Alane Brito",
@@ -21,11 +21,11 @@ const testimonials = [
   },
   {
     name: "Paula Vila Nova",
-    text: "Atendimento rapido e explicacao clara dos materiais. Trabalho realizado com prioridade e muita agilidade.",
+    text: "Atendimento rápido e explicação clara dos materiais. Trabalho realizado com prioridade e muita agilidade.",
   },
   {
     name: "Sara Baruk",
-    text: "Muito gente boa e faz um otimo servico. Trocou os pisos do meu apartamento rapidamente e com boa execucao.",
+    text: "Muito gente boa e faz um ótimo serviço. Trocou os pisos do meu apartamento rapidamente e com boa execução.",
   },
 ];
 
@@ -40,18 +40,18 @@ const TestimonialsSection = () => (
         className="text-center max-w-3xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Avaliacoes Reais no <span className="text-gradient">Google Maps</span>
+          Avaliações Reais no <span className="text-gradient">Google Maps</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Clientes destacam capricho, rapidez e transparencia no atendimento da RapidaForma.
+          Clientes destacam capricho, rapidez e transparência no atendimento da RápidaForma.
         </p>
         <div className="mt-5 flex flex-wrap justify-center items-center gap-3 text-sm">
           <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 border border-accent/30 px-4 py-2 font-semibold text-foreground">
             <span className="text-yellow-500">★★★★★</span>
-            Nota media 5.0 no Google
+            Nota média 5.0 no Google
           </span>
           <span className="inline-flex items-center gap-2 rounded-full bg-card border border-border px-4 py-2 text-muted-foreground">
-            Avaliacoes reais de clientes da regiao
+            Avaliações reais de clientes da região
           </span>
         </div>
       </motion.div>
@@ -95,7 +95,7 @@ const TestimonialsSection = () => (
           }}
         >
           <MessageCircle className="w-5 h-5" />
-          Quero um orcamento igual aos clientes satisfeitos
+          Quero um orçamento igual ao dos clientes satisfeitos
         </a>
       </motion.div>
     </div>

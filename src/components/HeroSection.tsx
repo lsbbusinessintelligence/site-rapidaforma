@@ -27,7 +27,7 @@ const HeroSection = () => (
           <div className="inline-flex items-center gap-3 mb-5 rounded-full bg-white/10 border border-white/20 px-3 py-2">
             <img
               src="/images/rapidaforma/obra-04.jpeg"
-              alt="Logo RapidaForma"
+              alt="Logo RápidaForma"
               className="w-9 h-9 rounded-full object-cover border border-white/40"
             />
             <span className="text-xs md:text-sm text-primary-foreground/90 font-medium">
@@ -41,11 +41,11 @@ const HeroSection = () => (
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground mb-6">
-            RapidaForma | Reformas e Pinturas{" "}
+            RápidaForma | Reformas e Pinturas{" "}
             <span className="text-gradient">com Qualidade e Agilidade</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl">
-            Especialistas em Taboao da Serra e regiao. O Sr. Cicero e sua equipe entregam sua obra com rapidez, limpeza e a confianca que voce procura.
+            Especialistas em Taboão da Serra e região. O Sr. Cícero e sua equipe entregam sua obra com rapidez, limpeza e a confiança que você procura.
           </p>
           <a
             href={WHATSAPP_URL}
@@ -62,16 +62,16 @@ const HeroSection = () => (
             }}
           >
             <MessageCircle className="w-5 h-5" />
-            Solicitar Orcamento Gratis
+            Solicitar Orçamento Grátis
           </a>
           <div className="mt-8 flex flex-col gap-3">
             <span className="flex items-center gap-2 text-primary-foreground/80 text-sm md:text-base font-semibold">
               <Check className="w-5 h-5 text-accent flex-shrink-0" />
-              Obras residenciais e comerciais na Grande Sao Paulo
+              Obras residenciais e comerciais na Grande São Paulo
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Orcamento transparente pelo WhatsApp
+              Orçamento transparente pelo WhatsApp
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
@@ -79,7 +79,7 @@ const HeroSection = () => (
             </span>
             <span className="flex items-center gap-2 text-primary-foreground/60 text-sm ml-7">
               <Check className="w-4 h-4 text-accent/70 flex-shrink-0" />
-              Zero enrolacao no prazo combinado
+              Zero enrolação no prazo combinado
             </span>
           </div>
         </motion.div>
@@ -94,7 +94,7 @@ const HeroSection = () => (
             <div className="relative overflow-hidden rounded-2xl bg-[#f8fcff]">
               <img
                 src="/images/rapidaforma/obra-10.jpeg"
-                alt="Equipe da RapidaForma em obra"
+                alt="Equipe da RápidaForma em obra"
                 className="w-full h-auto"
               />
             </div>
@@ -113,7 +113,7 @@ const HeroSection = () => (
                 ))}
               </div>
               <p className="text-[#1f4f73] font-semibold text-base mb-2">
-                "Capricho, pontualidade e acabamento impecavel."
+                "Capricho, pontualidade e acabamento impecável."
               </p>
               <p className="text-[#4f7b97] text-sm">
                 Clientes reais no Google Maps

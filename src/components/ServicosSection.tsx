@@ -5,17 +5,17 @@ const services = [
   {
     icon: PaintRoller,
     title: "Pintura Profissional",
-    desc: "Pintura interna, externa e aplicacao de cimento queimado com acabamento uniforme.",
+    desc: "Pintura interna, externa e aplicação de cimento queimado com acabamento uniforme.",
   },
   {
     icon: HousePlus,
     title: "Reformas em Geral",
-    desc: "Do rustico ao acabamento, cuidamos de cada detalhe da sua casa ou comercio.",
+    desc: "Do rústico ao acabamento, cuidamos de cada detalhe da sua casa ou comércio.",
   },
   {
     icon: Grid2x2,
     title: "Pisos e Revestimentos",
-    desc: "Instalacao rapida e precisa de pisos, azulejos e porcelanatos.",
+    desc: "Instalação rápida e precisa de pisos, azulejos e porcelanatos.",
   },
   {
     icon: Sparkles,
@@ -38,7 +38,7 @@ const ServicosSection = () => (
           Nossos <span className="text-gradient">Serviços</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Solucoes completas em obra, reforma e pintura para residencias e comercios
+          Soluções completas em obra, reforma e pintura para residências e comércios
         </p>
       </motion.div>
       <div className="grid md:grid-cols-2 gap-6">

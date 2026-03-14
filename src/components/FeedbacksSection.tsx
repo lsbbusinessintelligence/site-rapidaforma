@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
 const feedbackImages = [
-  { src: "/images/rapidaforma/obra-01.jpeg", alt: "Feedback visual 1 da RapidaForma" },
-  { src: "/images/rapidaforma/obra-02.jpeg", alt: "Feedback visual 2 da RapidaForma" },
-  { src: "/images/rapidaforma/obra-03.jpeg", alt: "Feedback visual 3 da RapidaForma" },
+  { src: "/images/rapidaforma/obra-01.jpeg", alt: "Feedback visual 1 da RápidaForma" },
+  { src: "/images/rapidaforma/obra-02.jpeg", alt: "Feedback visual 2 da RápidaForma" },
+  { src: "/images/rapidaforma/obra-03.jpeg", alt: "Feedback visual 3 da RápidaForma" },
 ];
 
 const FeedbacksSection = () => (
@@ -20,7 +20,7 @@ const FeedbacksSection = () => (
           Feedbacks <span className="text-gradient">dos Clientes</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Registros compartilhados por clientes e materiais de divulgacao da RapidaForma reunidos em um so lugar.
+          Registros compartilhados por clientes e materiais de divulgação da RápidaForma reunidos em um só lugar.
         </p>
       </motion.div>
 

@@ -13,10 +13,10 @@ const CtaSection = () => (
         className="text-center max-w-2xl mx-auto"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-          Solicite seu orcamento gratis agora
+          Solicite seu orçamento grátis agora
         </h2>
         <p className="text-primary-foreground/70 text-lg mb-10">
-          Fale direto com o {COMPANY.owner} e receba orientacao clara para sua obra, sem compromisso.
+          Fale direto com o {COMPANY.owner} e receba orientação clara para sua obra, sem compromisso.
         </p>
         <a
           href={WHATSAPP_URL}
@@ -33,7 +33,7 @@ const CtaSection = () => (
           }}
         >
           <MessageCircle className="w-5 h-5" />
-          Solicitar Orcamento Gratis
+          Solicitar Orçamento Grátis
         </a>
       </motion.div>
     </div>

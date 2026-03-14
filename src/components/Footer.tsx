@@ -8,21 +8,21 @@ const Footer = () => (
         <div>
           <h3 className="text-xl font-bold mb-4">{COMPANY.name}</h3>
           <p className="text-primary-foreground/70 mb-4">
-            Reformas, pinturas e acabamentos com foco em capricho, transparencia e obra sem enrolacao.
+            Reformas, pinturas e acabamentos com foco em capricho, transparência e obra sem enrolação.
           </p>
-          <p className="text-primary-foreground/80">Responsavel: {COMPANY.owner}</p>
+          <p className="text-primary-foreground/80">Responsável: {COMPANY.owner}</p>
           <p className="text-primary-foreground/80">WhatsApp: {COMPANY.phone}</p>
         </div>
         <div>
           <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            Localizacao e Atendimento
+            Localização e Atendimento
           </h3>
           <ul className="text-primary-foreground/70 space-y-2">
             <li>• {COMPANY.location}</li>
-            <li>• Taboao da Serra</li>
+            <li>• Taboão da Serra</li>
             <li>• Embu das Artes</li>
-            <li>• Grande Sao Paulo</li>
+            <li>• Grande São Paulo</li>
           </ul>
         </div>
       </div>

@@ -9,8 +9,8 @@ const DemoBanner = () => {
           <div className="flex items-center gap-2">
             <Zap className="w-4 h-4 text-orange-500 flex-shrink-0 animate-pulse" />
             <p className="text-xs sm:text-sm text-foreground">
-              <span className="font-semibold">Atendimento com agilidade:</span> fale agora com o Sr. Cicero.
-              <span className="hidden sm:inline"> Orcamento rapido para reformas e pinturas.</span>
+              <span className="font-semibold">Atendimento com agilidade:</span> fale agora com o Sr. Cícero.
+              <span className="hidden sm:inline"> Orçamento rápido para reformas e pinturas.</span>
             </p>
           </div>
           <a
@@ -28,7 +28,7 @@ const DemoBanner = () => {
             }}
           >
             <MessageCircle className="w-4 h-4" />
-            Pedir orcamento
+            Pedir orçamento
           </a>
         </div>
       </div>

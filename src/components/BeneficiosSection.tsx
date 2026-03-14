@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Clock3, Award, MessageSquare, Brush } from "lucide-react";
 
 const benefits = [
-  { icon: Clock3, title: "Sem Enrolacao", desc: "Cumprimos o prazo combinado a risca, com planejamento e compromisso." },
-  { icon: Award, title: "Capricho nos Detalhes", desc: "Acabamento de excelencia reconhecido por quem ja contratou." },
-  { icon: MessageSquare, title: "Transparencia Total", desc: "Orientacao clara sobre materiais, custos e etapas da obra." },
-  { icon: Brush, title: "Limpeza", desc: "Respeitamos seu espaco, mantendo organizacao do inicio ao fim." },
+  { icon: Clock3, title: "Sem Enrolação", desc: "Cumprimos o prazo combinado à risca, com planejamento e compromisso." },
+  { icon: Award, title: "Capricho nos Detalhes", desc: "Acabamento de excelência reconhecido por quem já contratou." },
+  { icon: MessageSquare, title: "Transparência Total", desc: "Orientação clara sobre materiais, custos e etapas da obra." },
+  { icon: Brush, title: "Limpeza", desc: "Respeitamos seu espaço, mantendo organização do início ao fim." },
 ];
 
 const BeneficiosSection = () => (
@@ -19,7 +19,7 @@ const BeneficiosSection = () => (
         className="text-center max-w-2xl mx-auto mb-14"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Por que a <span className="text-gradient">RapidaForma?</span>
+          Por que a <span className="text-gradient">RápidaForma?</span>
         </h2>
       </motion.div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
